@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Alfa+Slab+One&family=Archivo+Black&family=Bodoni+Moda:wght@400;900&family=Chakra+Petch:ital,wght@0,400;1,300&family=Foldit:wght@100&family=Gravitas+One&family=Kalam:wght@700&family=Lato:ital,wght@0,400;1,700&family=Merriweather&family=Poppins:ital,wght@0,200;0,400;0,500;0,600;0,800;1,200;1,300;1,500&family=Roboto:wght@100;300&family=Rubik+Mono+One&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "poppins",sans-serif; 
+  
+}
+
+.main {
+   display: flex;
+   width:  900px;
+   height: 500px;
+   margin-left: 18%;
+   margin-top: 5%;
+}
+
+
+
+ .left img{
+    width: 400px;
+    height: 500px;
+    /* background-color: burlywood; */
+}
+
+
+
+.right {
+    width: 500px;
+    height: 500px;
+    background-color: #737ff6;
+    border-radius: 5px;
+}
+
+.box-1 {
+    text-align: center;
+    margin-top: 9%;
+    color: white;
+}
+
+.box-2 {
+    margin-top: 6%;
+    margin-left: 22%;
+    color: white;
+}
+
+.box-2 .inp {
+    width: 240px;
+    height: 40px;
+    margin-top: 5px;
+    margin-bottom: 14px;
+    border: none;
+    border-radius: 5px;
+ 
+}
+a {
+    color: white;
+    font-size: 12px;
+}
+.span a{
+    margin-top: 4%;
+   font-size: 3px;
+   color: white;
+}
+.span #checkbox {
+    width: 5px;
+}
+.btn {
+    margin-top: 3%;
+    margin-left: 22%;
+    width: 47%;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background-color: #929af1;
+    cursor: pointer;
+}
